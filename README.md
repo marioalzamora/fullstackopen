@@ -1,8 +1,8 @@
-# fullstackopen
 <h1> Fullstackopen - Mario Alzamora</h1>
 
 <ul>
-    <h5>part0</h5>
+    <h2>part0</h2>
+    <h3>b - Fundamentals of Web Apps
     <ul>
         <li>
             <p>0.4</p>
