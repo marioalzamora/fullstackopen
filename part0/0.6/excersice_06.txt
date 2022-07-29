@@ -1,0 +1,17 @@
+title User creates a New note from SPA Input Field
+
+note over  browser
+Browser executes handler
+and redraws all the notes.
+Then sends new note to server.
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note right of server
+payload
+{
+    content: new note, 
+    date: "2022-07-29T19:40:33.028Z"
+}
+end note
+server-->browser: JSON  Response "{"message":"note created"}"
